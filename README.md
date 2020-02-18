@@ -26,6 +26,17 @@ More information on bikesharing can be found [here] (https://www.motivateco.com/
 * Ask user if they want to do another search
 
 
+## Directions
+
+* Navigate to the directory containing the file in your terminal and type **python bikeshare.py** to start.
+* Follow the promts on screen to select data for analysis.
+* Promts can accept *uppercase*, *lowercase*, or the corrisponding *number*.
+* After the data is selected, the statistics will be diplayed base on the selection.
+* Once the statistics are complete you will have the oportunity to see the *raw data*.
+* When viewing the raw data, you will have the opportunity to select how many rows to view at a time.
+* After the first group of rows is displayed, you can choose to view the next group of rows in the data.
+* When you are done viewing the data you can continue with another search or exit the program.
+
 
 
 ### Files used
