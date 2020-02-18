@@ -10,6 +10,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
+# Introductory Information ************************************************************************************************
+
+def introduction():
+    """This sub displays the introductory information"""
+    print("Explore US Bikeshare Data\n")
+
+
 # Get User Name ************************************************************************************************
 
 def get_name():
@@ -500,6 +507,7 @@ def display_data(df, name):
 # Main Function ************************************************************************************************
 
 def main():
+    introduction()
     user_name = get_name()
     search = search_question(user_name)
     if search == True:
