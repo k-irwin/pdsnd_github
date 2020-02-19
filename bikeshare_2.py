@@ -14,7 +14,14 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def introduction():
     """This sub displays the introductory information"""
-    print("Explore US Bikeshare Data\n")
+    print("\nExplore US Bikeshare Data")
+    print("By Keith Irwin")
+    print("Revised February 18, 2020\n")
+
+    print("This program provides analysis on US bikeshare data for New York City, Chicago, and Washington.")
+    print("You may enter selections by typing the word (not case sensitive) or the corrisponding number.\n")
+
+    print('-'*80)
 
 
 # Get User Name ************************************************************************************************
